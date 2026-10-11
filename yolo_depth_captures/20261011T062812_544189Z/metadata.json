@@ -1,0 +1,303 @@
+{
+  "rgb": {
+    "stamp_ns": 1791700092326043423,
+    "frame_id": "camera_color_optical_frame",
+    "width": 640,
+    "height": 480,
+    "encoding": "rgb8"
+  },
+  "depth": {
+    "stamp_ns": 1791700092335179487,
+    "frame_id": "camera_color_optical_frame",
+    "width": 640,
+    "height": 480,
+    "encoding": "16UC1"
+  },
+  "delta_ms": 9.136064,
+  "color_camera_info": {
+    "stamp_ns": 1791700092326043423,
+    "frame_id": "camera_color_optical_frame",
+    "width": 640,
+    "height": 480,
+    "k": [
+      570.3422047415297,
+      0.0,
+      319.5,
+      0.0,
+      570.3422047415297,
+      239.5,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "d": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "p": [
+      570.3422047415297,
+      0.0,
+      319.5,
+      0.0,
+      0.0,
+      570.3422047415297,
+      239.5,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "r": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "distortion_model": "plumb_bob",
+    "binning_x": 0,
+    "binning_y": 0,
+    "roi": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "do_rectify": false
+    }
+  },
+  "depth_camera_info": {
+    "stamp_ns": 1791700092335179487,
+    "frame_id": "camera_color_optical_frame",
+    "width": 640,
+    "height": 480,
+    "k": [
+      null,
+      0.0,
+      null,
+      0.0,
+      null,
+      null,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "d": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "p": [
+      570.3422047415297,
+      0.0,
+      319.5,
+      0.0,
+      0.0,
+      570.3422047415297,
+      239.5,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "r": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "distortion_model": "plumb_bob",
+    "binning_x": 0,
+    "binning_y": 0,
+    "roi": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "do_rectify": false
+    }
+  },
+  "xyz_status": "XYZ estimated in camera_color_optical_frame (RGB K/D)",
+  "experimental": true,
+  "calibration_verified": false,
+  "warning": "XYZ ESTIMATED - CALIBRATION UNVERIFIED - NOT FOR AGV CONTROL",
+  "xyz_frame_id": "camera_color_optical_frame",
+  "intrinsics_source": "/camera/color/camera_info",
+  "registration_check": {
+    "verified": true,
+    "reason": "depth_registration=true; audited Astra UVC profile: OpenNI Color created but not started",
+    "node": "/camera/camera",
+    "parameter": "depth_registration",
+    "value": true,
+    "checked_at_utc": "2026-10-11T06:28:11.879133+00:00",
+    "source_diagnostics": {
+      "endpoints": {
+        "rgb": [
+          {
+            "node": "/camera/camera",
+            "gid": "010f726eb52ca0530000000000006203"
+          },
+          {
+            "node": "/camera/camera",
+            "gid": "010f726eb52ca0530000000000006403"
+          }
+        ],
+        "depth": [
+          {
+            "node": "/camera/camera",
+            "gid": "010f726eb52ca0530000000000005e03"
+          }
+        ],
+        "rgb_info": [
+          {
+            "node": "/camera/camera",
+            "gid": "010f726eb52ca0530000000000006303"
+          },
+          {
+            "node": "/camera/camera",
+            "gid": "010f726eb52ca0530000000000006503"
+          }
+        ]
+      },
+      "observed": {
+        "depth": {
+          "UNAVAILABLE": {
+            "count": 141,
+            "first_seen": 10832.96600739,
+            "last_seen": 10837.920275171,
+            "frame_id": "camera_color_optical_frame",
+            "width": 640,
+            "height": 480,
+            "stamp_ns": 1791700091865130480,
+            "age_ms": 10.985393000737531
+          }
+        },
+        "depth_info": {
+          "UNAVAILABLE": {
+            "count": 148,
+            "first_seen": 10832.967640774,
+            "last_seen": 10837.920866797,
+            "frame_id": "camera_color_optical_frame",
+            "width": 640,
+            "height": 480,
+            "stamp_ns": 1791700091865130480,
+            "age_ms": 10.393767001005472
+          }
+        },
+        "rgb_info": {
+          "UNAVAILABLE": {
+            "count": 102,
+            "first_seen": 10832.970240964,
+            "last_seen": 10837.903686741,
+            "frame_id": "camera_color_optical_frame",
+            "width": 640,
+            "height": 480,
+            "stamp_ns": 1791700091846402933,
+            "age_ms": 27.573823001148412
+          }
+        },
+        "rgb": {
+          "UNAVAILABLE": {
+            "count": 84,
+            "first_seen": 10833.063899556,
+            "last_seen": 10837.903034892,
+            "frame_id": "camera_color_optical_frame",
+            "width": 640,
+            "height": 480,
+            "stamp_ns": 1791700091846402933,
+            "age_ms": 28.22567200018966
+          }
+        }
+      },
+      "driver_parameters": {
+        "depth_registration": true,
+        "enable_color": true,
+        "use_uvc_camera": true
+      },
+      "same_named_node": true,
+      "process_identity": "not exposed by ROS graph; not inferred from GID",
+      "message_gid_available": false,
+      "duplicate_policy": "audited Astra UVC topology only; not arbitrary multiple writers",
+      "rmw": "rmw_fastrtps_cpp",
+      "camera_node_instances": 1,
+      "publisher_policy": "audited Astra UVC profile: OpenNI Color created but not started"
+    },
+    "pair_publisher_gids": {
+      "depth": "UNAVAILABLE",
+      "depth_info": "UNAVAILABLE",
+      "rgb_info": "UNAVAILABLE",
+      "rgb": "UNAVAILABLE"
+    },
+    "rgb_camera_info_delta_ms": 0.0,
+    "check_age_ms": 478.1837840000662
+  },
+  "depth_intrinsics_used": false,
+  "rgb_intrinsics_valid": true,
+  "distance_definition": "median optical Z, not Euclidean range",
+  "xyz_definition": "P on candidate plane near M; not XYZ of M; +X right, +Y down, +Z forward",
+  "front_edge_semantics_verified": false,
+  "measurements": [
+    {
+      "candidate_pixels": 4654,
+      "valid_pixels": 4419,
+      "valid_ratio": 0.9495058014611087,
+      "median_z_m": 1.464,
+      "pixel_uv": null,
+      "pixel_z_m": null,
+      "xyz_m": null,
+      "xyz_frame_id": null,
+      "status": "Experimental depth",
+      "front_edge": {
+        "status": "FRONT EDGE NOT FOUND",
+        "semantic_front_verified": false,
+        "confidence_kind": "heuristic support score, not probability",
+        "A_uv": null,
+        "B_uv": null,
+        "M_uv": null,
+        "sample_uv": null,
+        "xyz_m": null,
+        "M_xyz_m": null,
+        "confidence": 0.0,
+        "reason": "no qualified RGB/Depth edge"
+      },
+      "old_pixel_uv": [
+        308,
+        325
+      ],
+      "old_xyz_m": [
+        -0.029519120030105112,
+        0.21946824022382497,
+        1.464
+      ],
+      "instance": 0,
+      "class_id": 0,
+      "class_name": "pallets",
+      "confidence": 0.9263471364974976
+    }
+  ],
+  "erode_px": 3,
+  "min_valid_pixels": 100,
+  "min_valid_ratio": 0.3,
+  "depth_range_mm": [
+    1,
+    10000
+  ],
+  "model": "/home/nnk/Projects/detect_astra_pro/models/best_v2.pt",
+  "conf": 0.6,
+  "imgsz": 640
+}

@@ -1,0 +1,22 @@
+{
+  "rgb": {
+    "stamp_ns": 1791539177843593190,
+    "frame_id": "camera_color_optical_frame",
+    "width": 640,
+    "height": 480,
+    "encoding": "rgb8"
+  },
+  "depth": {
+    "stamp_ns": 1791539177836787960,
+    "frame_id": "camera_color_optical_frame",
+    "width": 640,
+    "height": 480,
+    "encoding": "16UC1"
+  },
+  "delta_ms_depth_minus_rgb": -6.80523,
+  "max_delta_ms": 50.0,
+  "depth_max_mm": 5000.0,
+  "depth_alpha": 0.4,
+  "invalid_depth_value_mm": 0,
+  "registration_verified": false
+}
