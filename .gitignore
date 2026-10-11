@@ -6,3 +6,5 @@ __pycache__/
 *:Zone.Identifier
 data/
 runs/
+alignment_captures/
+yolo_depth_captures/
